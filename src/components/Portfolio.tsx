@@ -1,3 +1,5 @@
+import { useRef } from "react";
+import { motion, useInView, Variants } from "framer-motion";
 import { ArrowUpRight, Mail } from "lucide-react";
 import apamurah from "@/assets/projects/apamurahbanget.png";
 import rkExplore from "@/assets/projects/rk-explore.png";
@@ -6,6 +8,7 @@ import bidankita from "@/assets/projects/bidankita.png";
 import layerfarm from "@/assets/projects/layerfarm.png";
 import paytrack from "@/assets/projects/paytrack.png";
 import alquran from "@/assets/projects/alquran.png";
+
 
 type Project = {
   title: string;
