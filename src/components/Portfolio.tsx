@@ -298,7 +298,6 @@ export default function Portfolio() {
           <motion.div variants={staggerContainer} className="grid grid-cols-1 gap-6 content-start">
             {[
               { v: "7+", l: "Project diluncurkan" },
-              { v: "3+", l: "Tahun pengalaman" },
               { v: "100%", l: "Komitmen kualitas" },
             ].map((s) => (
               <motion.div
@@ -340,13 +339,13 @@ export default function Portfolio() {
               <a href="mailto:bangundwir@gmail.com" className="size-10 rounded-full border border-border bg-secondary flex items-center justify-center hover:bg-secondary/70 transition">
                 <Mail className="size-4" />
               </a>
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="size-10 rounded-full border border-border bg-secondary flex items-center justify-center hover:bg-secondary/70 transition">
+              <a href="https://github.com/bangundwir" target="_blank" rel="noreferrer" className="size-10 rounded-full border border-border bg-secondary flex items-center justify-center hover:bg-secondary/70 transition">
                 <Github className="size-4" />
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="size-10 rounded-full border border-border bg-secondary flex items-center justify-center hover:bg-secondary/70 transition">
                 <Linkedin className="size-4" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noreferrer" className="size-10 rounded-full border border-border bg-secondary flex items-center justify-center hover:bg-secondary/70 transition">
+              <a href="https://www.instagram.com/bangundwir" target="_blank" rel="noreferrer" className="size-10 rounded-full border border-border bg-secondary flex items-center justify-center hover:bg-secondary/70 transition">
                 <Instagram className="size-4" />
               </a>
             </div>
