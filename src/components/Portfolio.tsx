@@ -8,6 +8,7 @@ import bidankita from "@/assets/projects/bidankita.png";
 import layerfarm from "@/assets/projects/layerfarm.png";
 import paytrack from "@/assets/projects/paytrack.png";
 import alquran from "@/assets/projects/alquran.png";
+import bangunai from "@/assets/projects/bangunai.png";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -102,6 +103,14 @@ const projects: Project[] = [
     image: alquran,
     url: "https://alquranapp-omega.vercel.app/chat",
     description: "Al-Quran digital dengan AI Ustadz untuk tanya jawab seputar Islam.",
+  },
+  {
+    title: "BangunAI",
+    category: "Digital Garden",
+    year: "2026",
+    image: bangunai,
+    url: "https://bangunai.dwx.my.id/",
+    description: "Digital garden berisi artikel mendalam, daily notes, dan reading list.",
   },
 ];
 
