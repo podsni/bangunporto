@@ -119,7 +119,7 @@ export default function Portfolio() {
       <motion.header
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
         className="fixed top-0 inset-x-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/50"
       >
         <nav className="container-px max-w-7xl mx-auto flex items-center justify-between h-16">
