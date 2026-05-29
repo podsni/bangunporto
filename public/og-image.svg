@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1e1b2e"/>
+
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#ffffff08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Glow blob top-right -->
+  <ellipse cx="1050" cy="120" rx="300" ry="200" fill="oklch(0.72 0.18 290)" opacity="0.12"/>
+  <!-- Glow blob bottom-left -->
+  <ellipse cx="150" cy="520" rx="250" ry="180" fill="oklch(0.72 0.18 290)" opacity="0.08"/>
+
+  <!-- Avatar circle -->
+  <circle cx="140" cy="200" r="56" fill="#2a2540" stroke="oklch(0.72 0.18 290)" stroke-width="2" stroke-opacity="0.6"/>
+  <text x="140" y="214" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="700" fill="oklch(0.72 0.18 290)" text-anchor="middle">B</text>
+
+  <!-- Name -->
+  <text x="220" y="188" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" fill="#f7f5ff">Bangundwir</text>
+  <!-- Dot accent -->
+  <text x="570" y="188" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" fill="oklch(0.72 0.18 290)">.</text>
+
+  <!-- Tagline -->
+  <text x="220" y="232" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="400" fill="#9b93c4">Fullstack Developer · Membangun produk digital yang berdampak</text>
+
+  <!-- Divider -->
+  <rect x="100" y="290" width="1000" height="1" fill="#ffffff12"/>
+
+  <!-- Projects label -->
+  <text x="100" y="340" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="500" fill="#9b93c4" letter-spacing="3">SELECTED WORKS</text>
+
+  <!-- Project pills -->
+  <rect x="100" y="360" width="180" height="36" rx="18" fill="#2a2540" stroke="#3d3560" stroke-width="1"/>
+  <text x="190" y="383" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#c4bde8" text-anchor="middle">Apamurahbanget</text>
+
+  <rect x="296" y="360" width="140" height="36" rx="18" fill="#2a2540" stroke="#3d3560" stroke-width="1"/>
+  <text x="366" y="383" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#c4bde8" text-anchor="middle">RK Explore</text>
+
+  <rect x="452" y="360" width="130" height="36" rx="18" fill="#2a2540" stroke="#3d3560" stroke-width="1"/>
+  <text x="517" y="383" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#c4bde8" text-anchor="middle">GAMEZONE</text>
+
+  <rect x="598" y="360" width="120" height="36" rx="18" fill="#2a2540" stroke="#3d3560" stroke-width="1"/>
+  <text x="658" y="383" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#c4bde8" text-anchor="middle">BidanKita</text>
+
+  <rect x="734" y="360" width="140" height="36" rx="18" fill="#2a2540" stroke="#3d3560" stroke-width="1"/>
+  <text x="804" y="383" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#c4bde8" text-anchor="middle">LayerFarm OS</text>
+
+  <rect x="890" y="360" width="110" height="36" rx="18" fill="#2a2540" stroke="#3d3560" stroke-width="1"/>
+  <text x="945" y="383" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#c4bde8" text-anchor="middle">PayTrack</text>
+
+  <rect x="100" y="412" width="160" height="36" rx="18" fill="#2a2540" stroke="#3d3560" stroke-width="1"/>
+  <text x="180" y="435" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#c4bde8" text-anchor="middle">Al-Quran Digital</text>
+
+  <rect x="276" y="412" width="120" height="36" rx="18" fill="#2a2540" stroke="#3d3560" stroke-width="1"/>
+  <text x="336" y="435" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#c4bde8" text-anchor="middle">BangunAI</text>
+
+  <!-- Bottom URL -->
+  <text x="100" y="570" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#9b93c4">bangunporto.vercel.app</text>
+
+  <!-- Bottom right badge -->
+  <rect x="980" y="548" width="120" height="36" rx="8" fill="oklch(0.72 0.18 290)" opacity="0.15" stroke="oklch(0.72 0.18 290)" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="1040" y="571" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600" fill="oklch(0.72 0.18 290)" text-anchor="middle">Portfolio 2025</text>
+</svg>
