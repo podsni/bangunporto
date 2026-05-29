@@ -181,7 +181,7 @@ export default function Portfolio() {
             className="group relative aspect-[4/3] rounded-2xl overflow-hidden border border-border bg-card"
             initial={{ opacity: 0, scale: 0.9, x: 40 }}
             animate={heroInView ? { opacity: 1, scale: 1, x: 0 } : {}}
-            transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.3 }}
+            transition={{ duration: 0.9, ease: "easeOut", delay: 0.3 }}
           >
             <img
               src={projects[0].image}
